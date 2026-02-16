@@ -27,8 +27,25 @@
             }
         } */
 
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
         #blogContent {
-            padding: 4em;
+            padding: 2em;
+        }
+
+        @media (max-width: 1200px) and (min-width: 800px) {
+            #blogContent {
+                max-width: 80vw;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            #blogContent {
+                max-width: 40vw;
+            }
         }
 
     </style>
